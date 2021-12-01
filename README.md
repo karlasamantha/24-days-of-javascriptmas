@@ -1,4 +1,4 @@
-# 24 days of JavaScriptmas
+# 24 days of JavaScriptmas 🎄
 
 > Following Scrimba's 24 days of JavaScriptmas challenge
 
