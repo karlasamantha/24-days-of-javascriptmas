@@ -1,10 +1,9 @@
 const countDownDisplay = document.getElementById('countdown-display')
 const countDownHoursDisplay = document.querySelector('#countdown-hours')
 
-
 function renderCountdown() {
-  const xmasDate = Date.parse('December 25, 2021 00:00:00')
-  const today = new Date()  
+  const today = new Date()
+  const xmasDate = Date.parse(`December 25, ${today.getFullYear()} 00:00:00`)
   
   const timeDiff = xmasDate - today
   const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24))
